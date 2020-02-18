@@ -32,8 +32,18 @@ public class App {
                 System.out.println("Then I shall call you Mrs. " + lastNameAns);
 
             }
+            if(areYouMarriedAns.equals("N")){
+
+                System.out.println("Then I shall call you Ms. " + lastNameAns);
+
+            }
 
         }
+        if(genderAns.equals("F") && ageAns < 20){
+
+            System.out.println("Then I shall call you " +firstNameAns+ " " +lastNameAns);
+        }
+
 
 
     }
