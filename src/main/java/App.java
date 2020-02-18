@@ -21,7 +21,7 @@ public class App {
 
         int ageAns = scan.nextInt();
 
-        if(genderAns.equals("F") && ageAns > 20){
+        if(genderAns.equals("f") && ageAns >= 20){
 
             System.out.println("Are you married " + firstNameAns + " (y or n)?" );
 
