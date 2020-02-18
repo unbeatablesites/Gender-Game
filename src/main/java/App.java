@@ -48,19 +48,13 @@ public class App {
 
         if(genderAns.equals("m") && ageAns > 20){
 
-            System.out.println("Are you married " + firstNameAns + " (y or n)?" );
-
-            String areYouMarriedAns = scan.nextLine().toLowerCase();
-
-            if(areYouMarriedAns.equals("y")){
-
                 System.out.println("Then I shall call you Mr. " + lastNameAns);
 
             }else{
                 System.out.println("Then I shall call you " +firstNameAns+ " " +lastNameAns);
             }
         }
-    }
+
 
 
 
