@@ -19,9 +19,19 @@ public class App {
 
         askAgeQuestion();
 
-        String ageAns = scan.nextLine();
+        int ageAns = scan.nextInt();
 
-        if(genderAns.equals("F")){
+        if(genderAns.equals("F") && ageAns > 20){
+
+            System.out.println("Are you married " + firstNameAns + " (y or n)?" );
+
+            String areYouMarriedAns = scan.nextLine().toLowerCase();
+
+            if(areYouMarriedAns.equals("Y")){
+
+                System.out.println("Then I shall call you Mrs. " + lastNameAns);
+
+            }
 
         }
 
