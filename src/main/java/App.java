@@ -25,13 +25,13 @@ public class App {
 
             Scanner scan2 = new Scanner(System.in);
 
-            System.out.print("Are you married " + firstNameAns + " (y or n)?" );
+            System.out.print("Are you married, " + firstNameAns + " (y or n)? " );
 
             String areYouMarriedAns = scan2.nextLine().toLowerCase();
 
             if(areYouMarriedAns.equals("y")){
 
-                System.out.println("Then I shall call you Mrs. " + lastNameAns);
+                System.out.println("Then I shall call you Mrs. " + lastNameAns+".");
 
             }
             if(areYouMarriedAns.equals("n")){
