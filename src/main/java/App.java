@@ -36,14 +36,14 @@ public class App {
             }
             if(areYouMarriedAns.equals("n")){
 
-                System.out.println("Then I shall call you Ms. " + lastNameAns);
+                System.out.println("Then I shall call you Ms. " + lastNameAns+".");
 
             }
 
         }
         if(genderAns.equals("f") && ageAns < 20){
 
-            System.out.println("Then I shall call you " +firstNameAns+ " " +lastNameAns);
+            System.out.println("Then I shall call you " +firstNameAns+ " " +lastNameAns+".");
         }
 
         if(genderAns.equals("m") && ageAns > 20){
