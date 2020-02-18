@@ -10,7 +10,21 @@ public class App {
         String genderAns = scan.nextLine();
 
         askFirstNameQuestion();
+
+        String firstNameAns = scan.nextLine();
+
+        askLastNameQuestion();
+
+        String lastNameAns = scan.nextLine();
+
+        askAgeQuestion();
+
+        String ageAns = scan.nextLine();
+
     }
+
+
+
 
     public static void askGenderQuestion(){
         System.out.println("What is your gender (M or F):");
@@ -20,6 +34,12 @@ public class App {
         System.out.println("First name:");
     }
 
+    public static void askLastNameQuestion(){
+        System.out.println("Last name:");
+    }
+    public static void askAgeQuestion(){
+        System.out.println("Age:");
+    }
 
 
 }
