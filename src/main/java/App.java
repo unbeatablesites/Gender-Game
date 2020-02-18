@@ -7,7 +7,7 @@ public class App {
 
         Scanner scan = new Scanner(System.in);
 
-        String genderAns = scan.nextLine();
+        String genderAns = scan.nextLine().toLowerCase();
 
         askFirstNameQuestion();
 
@@ -20,6 +20,11 @@ public class App {
         askAgeQuestion();
 
         String ageAns = scan.nextLine();
+
+        if(genderAns.equals("F")){
+
+        }
+
 
     }
 
