@@ -23,16 +23,18 @@ public class App {
 
         if(genderAns.equals("f") && ageAns >= 20){
 
+            Scanner scan2 = new Scanner(System.in);
+
             System.out.print("Are you married " + firstNameAns + " (y or n)?" );
 
-            String areYouMarriedAns = scan.nextLine().toLowerCase();
+            String areYouMarriedAns = scan2.nextLine().toLowerCase();
 
-            if(areYouMarriedAns.equals("Y")){
+            if(areYouMarriedAns.equals("y")){
 
                 System.out.println("Then I shall call you Mrs. " + lastNameAns);
 
             }
-            if(areYouMarriedAns.equals("N")){
+            if(areYouMarriedAns.equals("n")){
 
                 System.out.println("Then I shall call you Ms. " + lastNameAns);
 
@@ -64,18 +66,18 @@ public class App {
 
 
     public static void askGenderQuestion(){
-        System.out.print("What is your gender (M or F):");
+        System.out.print("What is your gender (M or F): ");
     }
 
     public static void askFirstNameQuestion(){
-        System.out.print("First name:");
+        System.out.print("First name: ");
     }
 
     public static void askLastNameQuestion(){
-        System.out.print("Last name:");
+        System.out.print("Last name: ");
     }
     public static void askAgeQuestion(){
-        System.out.print("Age:");
+        System.out.print("Age: ");
     }
 
 
